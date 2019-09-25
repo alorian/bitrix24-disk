@@ -1,6 +1,6 @@
 {
   "name": "bitrix24-disk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bitrix 24 disk helper",
   "main": "index.js",
   "scripts": {
