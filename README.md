@@ -5,7 +5,7 @@ Key features are **recursive directory creation** from string and **promise base
 
 ## Installation
 ```shell script
-$ yarn add alorian/bitrix24-disk
+$ yarn add bitrix24-disk
 ```
 
 ## Methods
