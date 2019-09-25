@@ -88,7 +88,7 @@ Method returns bitrix24 disk file object
 ## Basic usage example
  
 ```javascript
-import Bitrix24Disk from "./index"
+import Bitrix24Disk from "bitrix24-disk"
 
 let storageLoaded = Bitrix24Disk.initStorage()
 storageLoaded.then(storage => {
