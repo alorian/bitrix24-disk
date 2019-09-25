@@ -6,6 +6,10 @@ Key features are **recursive directory creation** from string and **promise base
 ## Installation
 ```shell script
 $ yarn add bitrix24-disk
+
+or 
+
+$ npm i bitrix24-disk
 ```
 
 ## Methods
