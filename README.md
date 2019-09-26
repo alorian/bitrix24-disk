@@ -100,11 +100,11 @@ storageLoaded.then(storage => {
         if (filesList.length > 0) {
             for (let i = 0; i < filesList.length; i++) {
                 let fileReader = new FileReader();
-                fileReader.readAsDataURL(files[i]);
+                fileReader.readAsDataURL(filesList[i]);
                 
                 let fileUploaded = Bitrix24Disk.uploadToFolder(
                     diskFolder, 
-                    files[i].name, 
+                    filesList[i].name,
                     fileReader
                 )
                 
@@ -112,7 +112,7 @@ storageLoaded.then(storage => {
                     console.log(file)
                 })
 
-                fileUploaded.then(error => {
+                fileUploaded.catch(error => {
                     console.log(error)
                 })
             }
